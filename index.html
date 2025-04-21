@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Battle's Community</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .logo {
+      max-width: 300px;
+      width: 80%;
+      margin-bottom: 30px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #a640c7;
+      margin-bottom: 20px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 40px;
+      color: #ccc;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      animation: fadeIn 3.5s ease-in-out;
+    }
+
+    .btn {
+      background-color: #a640c7;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #7e2d9e;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="The Battle's Community Logo" class="logo" />
+  <h1>Bienvenido a The Battle's Community</h1>
+  <p>Servidor dedicado a la comunidad del juego Blox Fruits de Roblox. Aquí podrás intercambiar frutas, platicar con otros jugadores y enterarte de toda la información importante.</p>
+
+  <div class="btn-group">
+    <a href="https://discord.gg/6eA8VVF6wb" class="btn" target="_blank">Unirse al Discord</a>
+    <a href="#" class="btn">Más Información</a>
+  </div>
+</body>
+</html>
