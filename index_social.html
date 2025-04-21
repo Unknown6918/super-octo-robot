@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Battle's Community</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .logo {
+      max-width: 300px;
+      width: 80%;
+      margin-bottom: 30px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #a640c7;
+      margin-bottom: 20px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 40px;
+      color: #ccc;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      animation: fadeIn 3.5s ease-in-out;
+    }
+
+    .btn {
+      background-color: #a640c7;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #7e2d9e;
+    }
+
+    .social-buttons {
+      margin-top: 40px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .social {
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .social.discord { background-color: #5865F2; }
+    .social.instagram { background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf); }
+    .social.twitter { background-color: #000000; }
+    .social.tiktok { background-color: #000000; }
+    .social.roblox { background-color: #B3B3B3; }
+
+    .social:hover {
+      transform: scale(1.1);
+      opacity: 0.85;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="The Battle's Community Logo" class="logo" />
+  <h1>Bienvenido a The Battle's Community</h1>
+  <p>Servidor dedicado a la comunidad del juego Blox Fruits de Roblox. Aquí podrás intercambiar frutas, platicar con otros jugadores y enterarte de toda la información importante.</p>
+
+  <div class="btn-group">
+    <a href="https://discord.gg/6eA8VVF6wb" class="btn" target="_blank">Unirse al Discord</a>
+    <a href="#" class="btn">Más Información</a>
+  </div>
+
+  <!-- Pega esto justo antes de cerrar el </body> -->
+  <div class="social-buttons">
+    <a href="https://discord.gg/6eA8VVF6wb" target="_blank" class="social discord">Discord</a>
+    <a href="https://www.instagram.com/the.battlegg" target="_blank" class="social instagram">Instagram</a>
+    <a href="https://x.com/thebattlegg" target="_blank" class="social twitter">X</a>
+    <a href="https://www.tiktok.com/@.the_battle" target="_blank" class="social tiktok">TikTok</a>
+    <a href="https://www.roblox.com/users/mortal1736/profile" target="_blank" class="social roblox">Roblox</a>
+  </div>
+</body>
+</html>
